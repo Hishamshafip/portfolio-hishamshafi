@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hisham Shafi — Performance Marketer &amp; Content Strategist</title>
+<meta name="description" content="Hisham Shafi — Performance Marketer & Content Strategist. Driving growth for brands in cybersecurity, real estate, travel, and automotive through Meta Ads, short-form video, and high-converting creative." />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#top" class="nav__brand">HS<span class="dot">.</span></a>
+  <nav class="nav__links">
+    <a href="#clients">Clients</a>
+    <a href="#reels">Reels</a>
+    <a href="#posters">Design</a>
+    <a href="#skills">Skills</a>
+    <a href="https://www.instagram.com/hishaamshafi" class="nav__cta" target="_blank" rel="noopener">Instagram ↗</a>
+  </nav>
+  <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__grain" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">// performance marketing · short‑form video · creative strategy</p>
+        <h1 class="hero__title">
+          Hisham Shafi builds the
+          <span class="hero__title-swap" id="titleSwap" data-words="3‑second hook,scroll‑stopping ad,campaign that converts,reel your audience saves,ad they can't skip">3‑second hook</span>
+          that gets your brand watched.
+        </h1>
+        <p class="hero__lede">
+          Driving growth for brands across cybersecurity, real estate, travel, and automotive through targeted Meta Ad campaigns, short‑form video production, and high‑converting creative strategy.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://www.instagram.com/hishaamshafi" target="_blank" rel="noopener">View Instagram Profile ↗</a>
+          <a class="btn btn--ghost" href="#clients">See the client wall ↓</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong>7</strong><span>brands scaled</span></li>
+          <li><strong>5</strong><span>sectors served</span></li>
+          <li><strong>60+</strong><span>hook‑driven reels</span></li>
+        </ul>
+      </div>
+
+      <!-- Signature element: a vertical "reel" phone frame with rotating hook captions -->
+      <div class="hero__reel" aria-hidden="true">
+        <div class="reel-frame">
+          <div class="reel-frame__notch"></div>
+          <div class="reel-frame__screen">
+            <div class="reel-frame__bars">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="reel-frame__caption" id="reelCaption">STOP scrolling →</div>
+            <div class="reel-frame__meta">
+              <div class="reel-frame__avatar"></div>
+              <div class="reel-frame__lines">
+                <span class="line line--w70"></span>
+                <span class="line line--w40"></span>
+              </div>
+            </div>
+            <div class="reel-frame__actions">
+              <span>♥</span><span>💬</span><span>↗</span>
+            </div>
+          </div>
+          <div class="reel-frame__progress"><i id="reelProgress"></i></div>
+        </div>
+        <span class="reel-tag">0:03 hook window</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENTS ============ -->
+  <section id="clients" class="section clients">
+    <div class="section__head">
+      <p class="eyebrow">// brand wall</p>
+      <h2>Brands &amp; clients worked with</h2>
+      <p class="section__sub">Seven brands, five sectors, one hook‑first playbook. Tap a card to see the work live on Instagram.</p>
+    </div>
+
+    <div class="client-grid">
+
+      <a class="client-card" data-accent="cyan" href="https://www.instagram.com/qtechexperts" target="_blank" rel="noopener">
+        <div class="client-card__mark">QT</div>
+        <div class="client-card__body">
+          <h3>QTech Experts</h3>
+          <p>Cybersecurity &amp; IT Solutions</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="amber" href="https://www.instagram.com/tconebuilders" target="_blank" rel="noopener">
+        <div class="client-card__mark">TC</div>
+        <div class="client-card__body">
+          <h3>TC‑One Builders</h3>
+          <p>Luxury Real Estate</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="violet" href="https://www.instagram.com/sparkpointbiz" target="_blank" rel="noopener">
+        <div class="client-card__mark">SB</div>
+        <div class="client-card__body">
+          <h3>Sparkpoint Biz</h3>
+          <p>Business Solutions</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="coral" href="https://www.instagram.com/ecmotors_manjeri" target="_blank" rel="noopener">
+        <div class="client-card__mark">EC</div>
+        <div class="client-card__body">
+          <h3>EC Motors Manjeri</h3>
+          <p>Automotive</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="teal" href="https://www.instagram.com/rizqmentor_" target="_blank" rel="noopener">
+        <div class="client-card__mark">RM</div>
+        <div class="client-card__body">
+          <h3>Rizq Mentor</h3>
+          <p>EdTech &amp; Mentorship</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="sky" href="https://www.instagram.com/gokhair_travel" target="_blank" rel="noopener">
+        <div class="client-card__mark">GT</div>
+        <div class="client-card__body">
+          <h3>Gokhair Travel</h3>
+          <p>Tours &amp; Travel</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <a class="client-card" data-accent="pink" href="https://www.instagram.com/ozgo_global" target="_blank" rel="noopener">
+        <div class="client-card__mark">OG</div>
+        <div class="client-card__body">
+          <h3>Ozgo Global</h3>
+          <p>Global Services</p>
+        </div>
+        <span class="client-card__go">↗</span>
+      </a>
+
+      <div class="client-card client-card--cta">
+        <div class="client-card__body client-card__body--cta">
+          <h3>Your brand here</h3>
+          <p>Let's build the next hook.</p>
+          <a class="btn btn--primary btn--sm" href="https://www.instagram.com/hishaamshafi" target="_blank" rel="noopener">Say hello ↗</a>
+        </div>
+      </div>
+
+    </div>
+    <p class="client-note">Showing brand initials while official logo files are added — swap in a client's real logo any time by dropping an image into <code>.client-card__mark</code>.</p>
+  </section>
+
+  <!-- ============ REELS ============ -->
+  <section id="reels" class="section reels">
+    <div class="section__head">
+      <p class="eyebrow">// short‑form video · hook strategy</p>
+      <h2>Featured video reels</h2>
+      <p class="section__sub">High‑retention vertical creative, built around the first three seconds.</p>
+    </div>
+
+    <div class="reel-groups">
+
+      <article class="reel-group">
+        <div class="reel-group__tag" style="--accent: var(--pink)">Campaign Creative Showcase</div>
+        <h3>Short‑Form Video / Hook Strategy</h3>
+        <p>High‑retention vertical video creatives structured around 3‑second visual hooks for Meta ad algorithms.</p>
+        <div class="reel-links">
+          <a href="https://www.instagram.com/reel/DQ81Wj5EzQA/" target="_blank" rel="noopener">▶ Campaign Reel #1</a>
+          <a href="https://www.instagram.com/reel/DGA6nIkzJ-E/" target="_blank" rel="noopener">▶ Campaign Reel #2</a>
+        </div>
+      </article>
+
+      <article class="reel-group">
+        <div class="reel-group__tag" style="--accent: var(--lime)">Organic Reach &amp; Growth Creatives</div>
+        <h3>Brand Awareness &amp; Engagement</h3>
+        <p>Targeted storytelling native to short‑form platforms, designed to drive profile visits, saves, and brand recall.</p>
+        <div class="reel-links">
+          <a href="https://www.instagram.com/reel/DB0QNXrOj_q/" target="_blank" rel="noopener">▶ Engagement Reel #3</a>
+          <a href="https://www.instagram.com/reel/DBYYPq5u0BN/" target="_blank" rel="noopener">▶ Engagement Reel #4</a>
+        </div>
+      </article>
+
+      <article class="reel-group">
+        <div class="reel-group__tag" style="--accent: var(--amber)">Commercial &amp; Property Visuals</div>
+        <h3>Real Estate &amp; High‑Value Showcase</h3>
+        <p>High‑production visuals designed for real estate and premium services like TC‑One Builders.</p>
+        <div class="reel-links">
+          <a href="https://www.instagram.com/reel/DAaC0MKuWLu/" target="_blank" rel="noopener">▶ Property Reel #5</a>
+          <a href="https://www.instagram.com/reel/DXopKz0ia3r/" target="_blank" rel="noopener">▶ Property Reel #6</a>
+        </div>
+      </article>
+
+      <article class="reel-group">
+        <div class="reel-group__tag" style="--accent: var(--violet)">Promotional &amp; Lead Funnel Reels</div>
+        <h3>Direct Response &amp; Conversion</h3>
+        <p>Ad creatives structured for mid and bottom‑of‑funnel conversion campaigns to turn viewers into high‑intent leads.</p>
+        <div class="reel-links">
+          <a href="https://www.instagram.com/reel/DZusZWmuqIb/" target="_blank" rel="noopener">▶ Promo Reel #7</a>
+          <a href="https://www.instagram.com/reel/DZe_UvIO5aC/" target="_blank" rel="noopener">▶ Promo Reel #8</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ POSTERS ============ -->
+  <section id="posters" class="section posters">
+    <div class="section__head">
+      <p class="eyebrow">// graphic design</p>
+      <h2>Poster &amp; graphic design campaigns</h2>
+    </div>
+
+    <div class="poster-grid">
+      <article class="poster-card" data-accent="cyan">
+        <h3>Cybersecurity Infographics &amp; Educational Posts</h3>
+        <p>Technical graphic creatives for QTech Experts covering Email Security, Disaster Recovery, IAM, Ransomware, and Office Network Security.</p>
+        <a href="https://www.instagram.com/qtechexperts" target="_blank" rel="noopener">View poster works ↗</a>
+      </article>
+      <article class="poster-card" data-accent="amber">
+        <h3>Real Estate &amp; Property Branding</h3>
+        <p>Luxury interior and architectural marketing creatives for TC‑One Builders and Nestlay — apartments for sale, ready‑to‑move campaigns.</p>
+        <a href="https://www.instagram.com/tconebuilders" target="_blank" rel="noopener">View real estate creatives ↗</a>
+      </article>
+      <article class="poster-card" data-accent="pink">
+        <h3>Festival &amp; Seasonal Marketing</h3>
+        <p>Custom branded holiday creatives including Onam, Qatar National Day, Merry Christmas, and New Year campaigns.</p>
+        <a href="https://www.instagram.com/hishaamshafi" target="_blank" rel="noopener">View festival campaigns ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section skills">
+    <div class="section__head">
+      <p class="eyebrow">// the toolkit</p>
+      <h2>Capabilities &amp; skills</h2>
+    </div>
+
+    <div class="skill-grid">
+      <article class="skill-card">
+        <span class="skill-card__num">01</span>
+        <h3>Performance Marketing</h3>
+        <p>Meta Ads Manager setup, audience segmentation, pixel tracking, CTR optimization, and split testing.</p>
+      </article>
+      <article class="skill-card">
+        <span class="skill-card__num">02</span>
+        <h3>Short‑Form Video Production</h3>
+        <p>Reels scripting, 9:16 vertical video editing, visual hook strategy, and content planning.</p>
+      </article>
+      <article class="skill-card">
+        <span class="skill-card__num">03</span>
+        <h3>Graphic &amp; Poster Design</h3>
+        <p>Infographic carousels, ad creatives, festival post design, and brand identity assets.</p>
+      </article>
+      <article class="skill-card">
+        <span class="skill-card__num">04</span>
+        <h3>Ad Copywriting</h3>
+        <p>Direct response copy in English and Malayalam, tailored for conversions and high CTR.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CTA / FOOTER ============ -->
+  <section class="section cta">
+    <h2>Got a brand that needs a hook?</h2>
+    <p>Let's turn your first three seconds into your best‑performing asset.</p>
+    <a class="btn btn--primary btn--lg" href="https://www.instagram.com/hishaamshafi" target="_blank" rel="noopener">Message on Instagram ↗</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Hisham Shafi — Performance Marketing &amp; Content Strategy</span>
+  <a href="https://www.instagram.com/hishaamshafi" target="_blank" rel="noopener">Instagram ↗</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
